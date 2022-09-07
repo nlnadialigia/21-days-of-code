@@ -16,6 +16,9 @@
 ## 📌 Sobre
 
 Repositório para armazenar os 21 desafios propostos pela Rocketseat.
+Para cada dia será criada uma pasta onde ficará armazenado o código do desafio.
+O arquivo `index.html` conterá o índice dos desafios, publicado na Vercel.
+No Readme serão colocados os links das postagens e a página publicada.
 
 <br>
 
@@ -28,7 +31,7 @@ Repositório para armazenar os 21 desafios propostos pela Rocketseat.
 
 ## 🚀 Dia 01 - Criação do repositório
 
-
+[Post no LinkedIn](https://www.linkedin.com/posts/nlnadialigia_github-nlnadialigia21-days-of-code-reposit%C3%B3rio-activity-6973129519708692480-Xkx8?utm_source=share&utm_medium=member_desktop)
 
 <br>
 
