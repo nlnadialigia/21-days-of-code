@@ -19,14 +19,6 @@ Repositório para armazenar os 21 desafios propostos pela Rocketseat.
 
 <br>
 
-## 📌 Regra
-
-- Realizar uma publicação por dia
-- Compartilhar nas redes sociais usando a hastag #30DiasDeDicas
-- A publicação deve ser realizada até às 23:59, horário de Brasília.
-
-<br>
-
 ## ✨ Regra
 
 - Codar pelo menos uma hora por dia.
