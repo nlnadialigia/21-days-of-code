@@ -16,6 +16,9 @@
 ## 📌 Sobre
 
 Repositório para armazenar os 21 desafios propostos pela Rocketseat.
+Para cada dia será criada uma pasta onde ficará armazenado o código do desafio.
+O arquivo `index.html` conterá o índice dos desafios, publicado na Vercel.
+No Readme serão colocados os links das postagens e a página publicada.
 
 <br>
 
