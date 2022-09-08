@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./assets/background.jpg");
+  background-repeat: repeat;
+  font-family: 'Bungee', cursive;
+}
+
+div {
+  /* animation properties */
+  animation-name: my-animation;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+  /* other properties */
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  font-size: 120px;
+  font-weight: bold;
+  color: #002B5B;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+
+@keyframes my-animation {
+  from {
+    background-image: linear-gradient(40deg,
+      #fffc00 0%,
+      #fc00ff 45%,
+      #00fffc 100%);
+    width: 500px;
+    top: 10px;
+  }
+
+  to {
+    background-image: linear-gradient(40deg,
+      #fffc00 0%,
+      #fc00ff 45%,
+      #00fffc 100%);
+    width: 80vw;
+    top: 100px;
+  }
+}
