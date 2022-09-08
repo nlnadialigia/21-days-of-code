@@ -42,9 +42,19 @@ No Readme serão colocados os links das postagens e a página publicada.
 
 - Fazer um Hello World customizado com fontes, cores e imagens.
 
-[Post no LinkedIn]()
+[Post no LinkedIn](https://www.linkedin.com/posts/nlnadialigia_hello-world-activity-6973472891002589184-G3sy?utm_source=share&utm_medium=member_desktop)
 
 [Link da página](https://nlnadialigia.github.io/21-days-of-code/challenge02/index.html)
+
+<br>
+
+## 🚀 Dia 03 - Botão animado
+
+- Crie um botão animado.
+
+[Post no LinkedIn]()
+
+[Link da página]()
 
 <br>
 
