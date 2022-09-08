@@ -44,7 +44,7 @@ No Readme serão colocados os links das postagens e a página publicada.
 
 [Post no LinkedIn]()
 
-[Link da página]()
+[Link da página](https://nlnadialigia.github.io/21-days-of-code/challenge02/index.html)
 
 <br>
 
