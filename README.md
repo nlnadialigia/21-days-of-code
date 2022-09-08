@@ -42,6 +42,10 @@ No Readme serão colocados os links das postagens e a página publicada.
 
 - Fazer um Hello World customizado com fontes, cores e imagens.
 
+[Post no LinkedIn]()
+
+[Link da página]()
+
 <br>
 
 ## 👩‍💼 Autora
