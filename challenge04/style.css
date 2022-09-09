@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Fredoka One', cursive;
+  background-color: #112B3C;
+}
+
+.container {
+  position: relative;
+  margin: 100px auto;
+  width: 441px;
+  height: auto;
+  background: #EDA5F4;
+  border: 5px solid #E8E8E8;
+}
+
+.top {
+  position: relative;
+  width: 100%;
+  height: 45px;
+  padding: 10px;
+  background: #941E8C;
+  display: flex;
+  direction: rtl;
+}
+
+.btn-windows {
+  font-weight: bold;
+  margin-right: 6px;
+  background: #CDCDCD;
+  font-size: 20px;
+  width: 30px;
+}
+
+.body {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 8px;
+  margin-top: 5px;
+  background: #EDA5F4;
+  border: 2px #737373;
+}
+
+#result {
+  width: 100%;
+  height: 50px;
+  margin: 10px auto;
+  padding: 20px auto;
+  background: #ffff;
+  color: #941E8C;
+  font-size: 50px;
+  text-align: right;
+}
+
+.btn {
+  margin-bottom: 16px;
+  width: 64px;
+  height: 64px;
+  background-color: #941E8C;
+  color: #ffff;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  box-shadow: 4px 4px 4px gray;
+}
+
+.zero {
+  width: 150px;
+}
+
+.igual {
+  height: 150px;
+}
+
+.btn:hover {
+  background: #59065c;
+}
+
+@media (max-width: 400px) {
+  .container {
+    margin-top: 100px;
+    width: 250px;
+    margin-left: 20px;
+
+  }
+
+  h1 {
+    font-size: 13px;
+    margin-right: 15px;
+  }
+
+  .body {
+    width: 94%;
+    height: auto;
+  }
+
+  #result {
+    width: 180px;
+    margin-left: 8px;
+  }
+
+  .btn {
+    margin-top: 0px;
+    padding: 1px;
+    width: 2.5rem;
+    height: 3rem;
+    border: none;
+    font-size: 20px;
+    box-shadow: 4px 4px 4px gray;
+  }
+
+  .zero {
+    width: 5.0rem;
+  }
+
+  .igual {
+    height: 6.9rem;
+  }
+}
