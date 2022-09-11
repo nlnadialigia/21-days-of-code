@@ -58,6 +58,16 @@ No Readme serão colocados os links das postagens e a página publicada.
 
 <br>
 
+## 🚀 Dia 04 - Calculadora
+
+- Crie uma calculadora.
+
+[Post no LinkedIn]()
+
+[Link da página]()
+
+<br>
+
 ## 👩‍💼 Autora
 
 <img src=".github/picture.png" width="100px;" alt="Picture"/>
