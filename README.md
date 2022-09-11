@@ -62,9 +62,9 @@ No Readme serão colocados os links das postagens e a página publicada.
 
 - Crie uma calculadora.
 
-[Post no LinkedIn]()
+[Post no LinkedIn](https://www.linkedin.com/posts/nlnadialigia_github-nlnadialigia21-days-of-code-reposit%C3%B3rio-activity-6974579603084316672-0l75?utm_source=share&utm_medium=member_desktop)
 
-[Link da página]()
+[Link da página](https://nlnadialigia.github.io/21-days-of-code/challenge04/index.html)
 
 <br>
 
