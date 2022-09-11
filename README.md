@@ -68,6 +68,16 @@ No Readme serão colocados os links das postagens e a página publicada.
 
 <br>
 
+## 🚀 Dia 05 - Erro 404
+
+- Desenvolva uma página customizada que exiba o erro 404.
+
+[Post no LinkedIn]()
+
+[Link da página]()
+
+<br>
+
 ## 👩‍💼 Autora
 
 <img src=".github/picture.png" width="100px;" alt="Picture"/>
