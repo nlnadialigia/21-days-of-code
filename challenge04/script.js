@@ -1,26 +1,60 @@
-function insert(num){
-    const numero = document.getElementById('result').innerHTML;
-    if (result) {
-        document.getElementById('result').innerHTML = '';
-    }
-    document.getElementById('result').innerHTML = numero + num
-}
+const visor = document.getElementById("visor");
+const result = document.getElementById("result");
+const end = document.createElement("br");
+let validate = false;
+const space = "&#32";
 
-function clean(){
-    document.getElementById('result').innerHTML = "";
-}
+/* Inserir os números e símbolos */
+const insertNumber = (value) => {
+  if (validate) {
+    result.innerHTML = "";
+  }
 
-function back(){
-    const result = document.getElementById('result').innerHTML;
-    document.getElementById('result').innerHTML = result.substring(0, result.length -1);
-}
+  insert(value);
+};
 
-function calcular(){
-    const result = document.getElementById('result').innerHTML;
-    if(result){
-        document.getElementById('result').innerHTML = eval(result);
-    }  
-    else {
-        document.getElementById('result').innerHTML = alert('Opção inválida, inicie a conta novamente...')
-    }
-}
+const insertSymbol = (value) => {
+  result.innerHTML += space;
+  insert(value);
+  result.innerHTML += space;
+};
+
+const insert = (value) => {
+  validate = false;
+  const number = result.innerHTML;
+
+  result.innerHTML = number + value;
+};
+
+const clean = () => {
+  result.innerHTML = "";
+  visor.innerHTML = "";
+};
+
+const back = () => {
+  const back = result.innerHTML;
+  result.innerHTML = back.substring(0, back.length - 1);
+};
+
+const equal = () => {
+  calculate();
+};
+
+const calculate = () => {
+  const calc = result.innerHTML;
+  console.log(calc);
+
+  visor.innerHTML += calc;
+  visor.innerHTML += " = ";
+
+  try {
+    const expression = eval(calc);
+    result.innerHTML = expression;
+    visor.innerHTML += expression;
+    visor.appendChild(end);
+    validate = true;
+  } catch (error) {
+    result.innerHTML = alert("Operação inválida!");
+    clean();
+  }
+};
