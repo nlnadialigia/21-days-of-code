@@ -88,6 +88,16 @@ No Readme serão colocados os links das postagens e a página publicada.
 
 <br>
 
+## 🚀 Dia 07 - Contador
+
+- Desenvolva um contador.
+
+[Post no LinkedIn]()
+
+[Link da página]()
+
+<br>
+
 ## 👩‍💼 Autora
 
 <img src=".github/picture.png" width="100px;" alt="Picture"/>
