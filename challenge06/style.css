@@ -64,7 +64,7 @@ button {
   cursor: pointer;
 }
 
-.fim {
+.buttons {
   margin-top: 1rem;
   display: flex;
   align-items: center;
