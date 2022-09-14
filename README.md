@@ -82,9 +82,9 @@ No Readme serão colocados os links das postagens e a página publicada.
 
 - Crie um card com efeito glassmorphism.
 
-[Post no LinkedIn](https://www.linkedin.com/posts/nlnadialigia_github-nlnadialigia21-days-of-code-reposit%C3%B3rio-activity-6974863365059825664-alLg?utm_source=share&utm_medium=member_desktop)
+[Post no LinkedIn]()
 
-[Link da página](https://nlnadialigia.github.io/21-days-of-code/challenge05/index.html)
+[Link da página](https://nlnadialigia.github.io/21-days-of-code/challenge06/index.html)
 
 <br>
 
