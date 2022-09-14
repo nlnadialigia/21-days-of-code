@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <title>Glassmorphism</title>
+</head>
+
+<body>
+  <div class="p1" id="card">
+    <p>Quando a vida bater forte</p>
+    <p>e sua alma sangrar,</p>
+    <p>quando esse mundo pesado</p>
+    <p>lhe ferir, lhe esmagar...</p>
+    <p>É hora do recomeço.</p>
+    <p>Recomece a LUTAR.</p>
+    <div class="buttons">
+      <button>
+        <a href="../index.html">
+          <img src="./assets/home.png" alt="Casinha azul">
+        </a>
+      </button>
+      <button onclick="next('p1', 'p2')"><img src="./assets/seta-direita.png" alt="Seta direita azul"></button>
+    </div>
+  </div>
+  <div class="p2" id="p2">
+    <p>Quando tudo for escuro</p>
+    <p>e nada iluminar,</p>
+    <p>quando tudo for incerto</p>
+    <p>e você só duvidar...</p>
+    <p>É hora do recomeço.</p>
+    <p>Recomece a ACREDITAR.</p>
+    <div class="buttons">
+      <button onclick="next('p2', 'p1')"><img src="./assets/seta-esquerda.png" alt="Seta esquerda azul"></button>
+      <button onclick="next('p2', 'p3')"><img src="./assets/seta-direita.png" alt="Seta direita azul"></button>
+    </div>
+  </div>
+  <div class="p3" id="p3">
+    <p>Quando a estrada for longa</p>
+    <p>e seu corpo fraquejar,</p>
+    <p>quando não houver caminho</p>
+    <p>nem um lugar pra chegar...</p>
+    <p>É hora do recomeço.</p>
+    <p>Recomece a CAMINHAR.</p>
+    <div class="buttons">
+      <button onclick="next('p3', 'p2')"><img src="./assets/seta-esquerda.png" alt="Seta esquerda azul"></button>
+      <button onclick="next('p3', 'p4')"><img src="./assets/seta-direita.png" alt="Seta direita azul"></button>
+    </div>
+  </div>
+  <div class="p4" id="p4">
+    <p>Quando o mal for evidente</p>
+    <p>e o amor se ocultar,</p>
+    <p>quando o peito for vazio,</p>
+    <p>quando o abraço faltar...</p>
+    <p>É hora do recomeço.</p>
+    <p>Recomece a AMAR.</p>
+    <div class="buttons">
+      <button onclick="next('p4', 'p3')"><img src="./assets/seta-esquerda.png" alt="Seta esquerda azul"></button>
+      <button onclick="next('p4', 'p5')"><img src="./assets/seta-direita.png" alt="Seta direita azul"></button>
+    </div>
+  </div>
+  <div class="p5" id="p5">
+    <p>Quando você cair</p>
+    <p>e ninguém lhe aparar,</p>
+    <p>quando a força do que é ruim</p>
+    <p>conseguir lhe derrubar...</p>
+    <p>É hora do recomeço.</p>
+    <p>Recomece a LEVANTAR.</p>
+    <div class="buttons">
+      <button onclick="next('p5', 'p4')"><img src="./assets/seta-esquerda.png" alt="Seta esquerda azul"></button>
+      <button onclick="next('p5', 'p6')"><img src="./assets/seta-direita.png" alt="Seta direita azul"></button>
+    </div>
+  </div>
+  <div class="p6" id="p6">
+    <p>Quando a falta de esperança</p>
+    <p>decidir lhe açoitar,</p>
+    <p>se tudo que for real</p>
+    <p>for difícil suportar...</p>
+    <p>É hora do recomeço.</p>
+    <p>Recomece a SONHAR.</p>
+    <div class="buttons">
+      <button onclick="next('p6', 'p5')"><img src="./assets/seta-esquerda.png" alt="Seta esquerda azul"></button>
+      <button onclick="next('p6', 'p7')"><img src="./assets/seta-direita.png" alt="Seta direita azul"></button>
+    </div>
+  </div>
+  <div class="p7" id="p7">
+    <p>Enfim,</p>
+    <div class="buttons">
+      <button onclick="next('p7', 'p6')"><img src="./assets/seta-esquerda.png" alt="Seta esquerda azul"></button>
+      <button onclick="next('p7', 'p8')"><img src="./assets/seta-direita.png" alt="Seta direita azul"></button>
+    </div>
+  </div>
+  <div class="p8" id="p8">
+    <p>É preciso de um final</p>
+    <p>pra poder recomeçar,</p>
+    <p>como é preciso cair</p>
+    <p>pra poder se levantar.</p>
+    <p>Nem sempre engatar a ré</p>
+    <p>significa voltar.</p>
+    <div class="buttons">
+      <button onclick="next('p8', 'p7')"><img src="./assets/seta-esquerda.png" alt="Seta esquerda azul"></button>
+      <button onclick="next('p8', 'p9')"><img src="./assets/seta-direita.png" alt="Seta direita azul"></button>
+    </div>
+  </div>
+  <div class="p9" id="p9">
+    <p>Remarque aquele encontro,</p>
+    <p>reconquiste um amor,</p>
+    <p>reúna quem lhe quer bem,</p>
+    <p>reconforte um sofredor,</p>
+    <p>reanime quem tá triste</p>
+    <p>e reaprenda na dor.</p>
+    <div class="buttons">
+      <button onclick="next('p9', 'p8')"><img src="./assets/seta-esquerda.png" alt="Seta esquerda azul"></button>
+      <button onclick="next('p9', 'p10')"><img src="./assets/seta-direita.png" alt="Seta direita azul"></button>
+    </div>
+  </div>
+  <div class="p10" id="p10">
+    <p>Recomece, se refaça,</p>
+    <p>relembre o que foi bom,</p>
+    <p>reconstrua cada sonho,</p>
+    <p>redescubra algum dom,</p>
+    <p>reaprenda quando errar,</p>
+    <p>rebole quando dançar,</p>
+    <p>e se um dia, lá na frente,</p>
+    <p>a vida der uma ré,</p>
+    <p>recupere sua fé</p>
+    <p>e RECOMECE novamente.</p>
+    <div class="buttons">
+      <span>Bráulio Bessa</span>
+      <button>
+        <a href="../index.html">
+          <img src="./assets/home.png" alt="Casinha azul">
+        </a>
+      </button>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>

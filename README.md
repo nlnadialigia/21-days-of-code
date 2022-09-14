@@ -78,6 +78,16 @@ No Readme serão colocados os links das postagens e a página publicada.
 
 <br>
 
+## 🚀 Dia 06 - Glassmorphism
+
+- Crie um card com efeito glassmorphism.
+
+[Post no LinkedIn]()
+
+[Link da página](https://nlnadialigia.github.io/21-days-of-code/challenge06/index.html)
+
+<br>
+
 ## 👩‍💼 Autora
 
 <img src=".github/picture.png" width="100px;" alt="Picture"/>
